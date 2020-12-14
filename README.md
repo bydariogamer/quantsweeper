@@ -2,6 +2,8 @@
 This game is a quantic minesweeper in which players have no opportunity to win. But, it is fun however. Maybe in a next version it will be possible to have a h/4\*pi change of winning
 # dependencies
 This game works with python 3 and needs pygame module installed (so, there should be no OS problems with it).
+# make it work
+Just go into the quantsweeper folder and run quantsweeper.py
 # license
 The game is under GPL. To sum up: it means you can do whatever you want with the code as long as the rest of the people have the same freedom (read the LICENSE however).
 All images are under CC-BY-SA: they can be shared, modified, and even sold as long as everybody have the same freedom to do what you did.
