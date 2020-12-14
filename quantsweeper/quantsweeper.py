@@ -7,8 +7,8 @@ pygame.init()
 #set mesures, clock and images
 disp_wid=600
 disp_hei=800
-miner=pygame.image.load('miner.png') #image under CC-BY-SA
-ender=pygame.image.load('ender.png') #image under CC-BY-SA
+miner=pygame.image.load('res/miner.png') #image under CC-BY-SA
+ender=pygame.image.load('res/ender.png') #image under CC-BY-SA
 clock = pygame.time.Clock()
 
 #set window mesures and title
