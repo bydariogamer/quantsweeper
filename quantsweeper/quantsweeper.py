@@ -7,16 +7,16 @@ pygame.init()
 #set mesures, clock and images
 disp_wid=600
 disp_hei=800
-miner=pygame.image.load('res/miner.png') #image under CC-BY-SA
-ender=pygame.image.load('res/ender.png') #image under CC-BY-SA
+miner=pygame.image.load('res/miner.png') #the image with the board of the game
+ender=pygame.image.load('res/ender.png') #the 'you lose/win' screen
+icon=pygame.image.load('res/icon.png')   #the icon of the game
 clock = pygame.time.Clock()
 
-#set window mesures and title
+#set window (mesures, title and icon)
 game = pygame.display.set_mode((disp_wid,disp_hei))
 pygame.display.set_caption('QUANTSWEEPER')
+pygame.display.set_icon(icon)
 
-#improvement code
-'''
 #define classes
 class button():
     def __init__(self, color, x,y,width,height, text=''):
@@ -45,7 +45,6 @@ class button():
             if pos[1] > self.y and pos[1] < self.y + self.height:
                 return True    
         return False
-'''
 
 #the game works until you want to exit
 run=True
